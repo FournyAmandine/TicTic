@@ -15,7 +15,7 @@ final kShadow = BoxShadow(
   offset: const Offset(0, 3), // changes position of shadow
 );
 
-final appTheme = ThemeData(
+final kAppTheme = ThemeData(
   useMaterial3: true,
   // recommandé avec ColorScheme
   colorScheme: ColorScheme(
@@ -59,7 +59,6 @@ final appTheme = ThemeData(
 
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      //TODO:replace
       textStyle: kButtonTextStyle,
       backgroundColor: kSecondaryColor,
       foregroundColor: Colors.white,
